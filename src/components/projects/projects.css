@@ -65,6 +65,23 @@
     .projectImg{
         height: 14rem;
     }
+    .projectImgs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectTextTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .projectTextDesc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 @media screen and (max-width:480px) {
     .projectTextTitle{

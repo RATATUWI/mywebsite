@@ -18,6 +18,10 @@ const Projects = () => {
             <h2 className='projectTextTitle'>• Create Read Update Delete</h2>
              <p className="projectTextDesc">Basic collecting information using CRUD operations. 
               This built using React Js, Bootstrap, and Node Js, Mysql Xampp for the backend</p>
+              <div className="projectViewBtn">
+              <button>View</button>
+              <button>Source Code</button>
+              </div>
            </div>
            </div>
            <div className="projectImgs">

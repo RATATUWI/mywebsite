@@ -16,8 +16,9 @@ const Intro = () => {
     <section id="intro">
         <div className="introContent">
             <span className="hello">Hello,</span>
-            <span className="introText">I'm <span className="introName">John Rey</span> <br/>
-            <span style={{fontWeight: 'bold', color: '#F7E987'}}>{text}</span>
+            <span className="introText">I'm <span className="introName">John Rey</span></span>
+            <span style={{fontWeight: 'bold', color: '#F7E987'}}>
+              {text}
             </span>
             <p className="introPara">"With a passion for innovation, I bring web designs to life, bridging  <br/> imagination 
             and technology to build user-centric online journeys."

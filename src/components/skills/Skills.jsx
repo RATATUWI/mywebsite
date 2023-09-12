@@ -6,6 +6,8 @@ import jslogo from '../../assets/jd.png'
 import bootstrap from '../../assets/bootstrap.png'
 import css from '../../assets/css.png'
 import html from '../../assets/html.png'
+import { Roll } from 'react-reveal'
+
 
 const Skills = () => {
   return (
@@ -13,6 +15,7 @@ const Skills = () => {
         <span className="skillTitle">What I do</span>
         
             <div className="skillBars">
+                <Roll right>
                 <div className="skillBar">
                     <img src={reactlogo} alt="React Logo" className="skillBarImg" />
                     <div className="skillBarText">
@@ -21,6 +24,8 @@ const Skills = () => {
                         styling, state and props)</p>
                     </div>
                 </div>
+                </Roll>
+                <Roll left>
                 <div className="skillBar">
                     <img src={nodelogo} alt="Node Logo" className="skillBarImg" />
                     <div className="skillBarText">
@@ -28,6 +33,8 @@ const Skills = () => {
                     <p>(Create, Read, Update, Delelte)</p>
                     </div>
                 </div>
+                </Roll>
+                <Roll right>
                 <div className="skillBar">
                     <img src={jslogo} alt="Js Logo" className="skillBarImg" />
                     <div className="skillBarText">
@@ -35,6 +42,8 @@ const Skills = () => {
                     <p>(DOM Manipulation, Fetch API)</p>
                     </div>
                 </div>
+                </Roll>
+                <Roll left>
                 <div className="skillBar">
                     <img src={bootstrap} alt="Js Logo" className="skillBarImg" />
                     <div className="skillBarText">
@@ -42,6 +51,8 @@ const Skills = () => {
                     <p>(Layout, Content, Forms, Components, etc... )</p>
                     </div>
                 </div>
+                </Roll>
+                <Roll right>
                 <div className="skillBar">
                     <img src={css} alt="Js Logo" className="skillBarImg" />
                     <div className="skillBarText">
@@ -49,6 +60,8 @@ const Skills = () => {
                     <p>(Syntax, Selectors, Colors, Components, Fonts, List, Borders, Responsive, etc...)</p>
                     </div>
                 </div>
+                </Roll>
+                <Roll left>
                 <div className="skillBar">
                     <img src={html} alt="Js Logo" className="skillBarImg" />
                     <div className="skillBarText">
@@ -56,6 +69,7 @@ const Skills = () => {
                     <p>(Element, Attributes, Headings, Styles, Formatting, Layout, Responsive, etc...)</p>
                     </div>
                 </div>
+                </Roll>
             </div>
         
     </section>

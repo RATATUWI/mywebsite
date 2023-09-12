@@ -15,7 +15,7 @@ const Skills = () => {
         <span className="skillTitle">What I do</span>
         
             <div className="skillBars">
-                <Roll right>
+            <Roll top>
                 <div className="skillBar">
                     <img src={reactlogo} alt="React Logo" className="skillBarImg" />
                     <div className="skillBarText">
@@ -61,7 +61,7 @@ const Skills = () => {
                     </div>
                 </div>
                 </Roll>
-                <Roll left>
+                <Roll bottom>
                 <div className="skillBar">
                     <img src={html} alt="Js Logo" className="skillBarImg" />
                     <div className="skillBarText">
